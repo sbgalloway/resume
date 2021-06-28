@@ -1,0 +1,13 @@
+.grid-container{
+    width:-webkit-fill-available;
+}
+
+.mat-grid-list{
+    position: inherit;
+}
+
+.mat-card{
+    width: 90%;
+    height: 90%;
+    background-color: whitesmoke;
+}

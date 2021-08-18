@@ -1,0 +1,22 @@
+/* https://www.w3schools.com/cssref/css_entities.asp */
+
+h4::before{
+    content: "\2022";
+}
+
+p::before{
+    content: "\2023";
+}
+
+p{
+    margin-left: 24px;
+    margin-top: -10px;
+}
+
+.key-bullet{
+    /* height: 36px !important; */
+}
+
+.sub-bullet{
+    height: 36px !important;
+}

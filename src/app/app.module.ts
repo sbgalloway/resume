@@ -10,12 +10,14 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { EducationSummaryComponent } from './education-summary/education-summary.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    EducationSummaryComponent
   ],
   imports: [
     BrowserModule,

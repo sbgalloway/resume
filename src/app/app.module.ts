@@ -8,13 +8,16 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { MatListModule } from '@angular/material/list';
-import { MatDividerModule } from '@angular/material/divider'
+import { MatDividerModule } from '@angular/material/divider';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { EducationSummaryComponent } from './education-summary/education-summary.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    EducationSummaryComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +25,8 @@ import { MatDividerModule } from '@angular/material/divider'
     MatGridListModule,
     MatCardModule,
     MatListModule,
-    MatDividerModule
+    MatDividerModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

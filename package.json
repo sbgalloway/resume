@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --prod --base-href=\" https://sbgalloway.github.io/resume/\" && angular-cli-ghpages --branch gh-pages",
+    "deploy": "ng build --prod --base-href=\" https://sbgalloway.github.io/resume/\"",
     "docs": "ng build --prod --base-href=\" https://sbgalloway.github.io/resume/\""
   },
   "private": true,

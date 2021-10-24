@@ -4,45 +4,29 @@
         <h1>Samuel B Galloway</h1>
         <h2>Full Stack Software Developer</h2>
     </div>
-
-    <div>
-        <div fxLayout="row" fxLayoutAlign="left left" fxLayoutGap="16px" fxFlexFill>
+    <br/>
+    <div class="fx-wrapper">
+        <div fxLayout="row" fxLayout.md="column" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="left left" fxLayoutGap="16px" fxFlexFill>
             <mat-card>
                 <h3>Work Experience Summary</h3>
                 <app-work-experience></app-work-experience>
             </mat-card>
             <mat-card>
                 <h3>Education Summary</h3>
+                <app-education-summary></app-education-summary>
+            </mat-card>
+        </div>
+        <br/>
+        <div fxLayout="row" fxLayout.md="column" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="left left" fxLayoutGap="16px" fxFlexFill>
+            <mat-card>
+                <h3>Notable Skills Summary</h3>
+                <app-education-summary></app-education-summary>
+            </mat-card>
+            <mat-card>
+                <h3>Contact Information (probably a bad idea to put on a public facing website?)</h3>
                 <app-work-experience></app-work-experience>
             </mat-card>
         </div>
-    </div>
-
-    <div class="grid-container">
-        <mat-grid-list cols="2" rowHeight="2:1">
-            <mat-grid-tile>
-                <mat-card>
-                    <h3>Work Experience Summary</h3>
-                    <app-work-experience></app-work-experience>
-                </mat-card>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-card>
-                    <h3>Education Summary</h3>
-                    <app-education-summary></app-education-summary>
-                </mat-card>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-card>
-                    <h3>Notable Skills Summary</h3>
-                </mat-card>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-card>
-                    <h3>Contact Information</h3>
-                </mat-card>
-            </mat-grid-tile>
-        </mat-grid-list>
     </div>
 
     <svg id="clouds" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677"

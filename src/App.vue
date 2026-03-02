@@ -105,6 +105,7 @@ body {
   *::before,
   *::after {
     transition: none !important;
+    animation: none !important;
   }
 }
 </style>
@@ -122,6 +123,7 @@ body {
   text-align: center;
   width: 100%;
   max-width: 24rem;
+  animation: fade-in-up 0.6s ease-out both;
 }
 
 .name {
@@ -179,4 +181,25 @@ body {
   font-size: 0.95rem;
   font-weight: 500;
 }
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.link-card {
+  animation: fade-in-up 0.5s ease-out both;
+}
+
+li:nth-child(1) .link-card { animation-delay: 0.1s; }
+li:nth-child(2) .link-card { animation-delay: 0.15s; }
+li:nth-child(3) .link-card { animation-delay: 0.2s; }
+li:nth-child(4) .link-card { animation-delay: 0.25s; }
+li:nth-child(5) .link-card { animation-delay: 0.3s; }
 </style>
